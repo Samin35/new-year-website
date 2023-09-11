@@ -19,7 +19,7 @@ body {
 .primary-btn {
     height: 64;
     width: 160;
-    padding: 10px 20px;
+    padding: 20px 35px;
     background-color: white;
     color: blue;
     font-weight: 700;
@@ -30,6 +30,7 @@ body {
 .wrap {
     word-wrap: break-word;
     word-break: break-all;
+    color: white;
 }
 
 .header-div {
@@ -37,7 +38,7 @@ body {
 
     width: 50%;
     text-align: right;
-    margin: 320px 40px 0 0;
+    margin: 320px 45px 0 0;
 
 
 }
@@ -52,3 +53,45 @@ header {
 }
 
 /*MAIN SECTION DESIGN*/
+
+main {
+    margin: 0 30px 0 30px;
+}
+
+.failer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failer-content {
+    width: 50%;
+}
+
+.person {
+    width: 560px;
+    height: 720px;
+}
+
+/*PLANS SECTION*/
+
+.plan-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.plan-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plan {
+    width: 214px;
+    height: 197px;
+}
+
+.plans {
+    margin-top: 100px;
+}
